@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		3E5E3738270C273400672515 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E5E3737270C273400672515 /* AppDelegate.m */; };
 		3E5E373B270C273400672515 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E5E373A270C273400672515 /* SceneDelegate.m */; };
-		3E5E373E270C273400672515 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E5E373D270C273400672515 /* ViewController.m */; };
+		3E5E373E270C273400672515 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E5E373D270C273400672515 /* MainViewController.m */; };
 		3E5E3741270C273400672515 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E5E373F270C273400672515 /* Main.storyboard */; };
 		3E5E3743270C273500672515 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E5E3742270C273500672515 /* Assets.xcassets */; };
 		3E5E3746270C273500672515 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E5E3744270C273500672515 /* LaunchScreen.storyboard */; };
 		3E5E3749270C273500672515 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E5E3748270C273500672515 /* main.m */; };
+		3E5E3751270C288200672515 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E5E3750270C288200672515 /* WebKit.framework */; };
+		BEA8F03BB7322508797517F8 /* Pods_QRCode_Objective_C.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 586DF01D9BFE805EDDA0ACA2 /* Pods_QRCode_Objective_C.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,13 +24,17 @@
 		3E5E3737270C273400672515 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3E5E3739270C273400672515 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		3E5E373A270C273400672515 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		3E5E373C270C273400672515 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3E5E373D270C273400672515 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3E5E373C270C273400672515 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		3E5E373D270C273400672515 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		3E5E3740270C273400672515 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3E5E3742270C273500672515 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E5E3745270C273500672515 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3E5E3747270C273500672515 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E5E3748270C273500672515 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3E5E3750270C288200672515 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		586DF01D9BFE805EDDA0ACA2 /* Pods_QRCode_Objective_C.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QRCode_Objective_C.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75A7F1F6A1A376122AE7A17E /* Pods-QRCode_Objective-C.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRCode_Objective-C.release.xcconfig"; path = "Target Support Files/Pods-QRCode_Objective-C/Pods-QRCode_Objective-C.release.xcconfig"; sourceTree = "<group>"; };
+		ADFFA4DBC2CF4070CD4E529A /* Pods-QRCode_Objective-C.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRCode_Objective-C.debug.xcconfig"; path = "Target Support Files/Pods-QRCode_Objective-C/Pods-QRCode_Objective-C.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +42,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E5E3751270C288200672515 /* WebKit.framework in Frameworks */,
+				BEA8F03BB7322508797517F8 /* Pods_QRCode_Objective_C.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +55,8 @@
 			children = (
 				3E5E3735270C273400672515 /* QRCode_Objective-C */,
 				3E5E3734270C273400672515 /* Products */,
+				3E5E374F270C288200672515 /* Frameworks */,
+				76BA6ED5B69E698616D38BB6 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,8 +75,8 @@
 				3E5E3737270C273400672515 /* AppDelegate.m */,
 				3E5E3739270C273400672515 /* SceneDelegate.h */,
 				3E5E373A270C273400672515 /* SceneDelegate.m */,
-				3E5E373C270C273400672515 /* ViewController.h */,
-				3E5E373D270C273400672515 /* ViewController.m */,
+				3E5E373C270C273400672515 /* MainViewController.h */,
+				3E5E373D270C273400672515 /* MainViewController.m */,
 				3E5E373F270C273400672515 /* Main.storyboard */,
 				3E5E3742270C273500672515 /* Assets.xcassets */,
 				3E5E3744270C273500672515 /* LaunchScreen.storyboard */,
@@ -76,6 +86,25 @@
 			path = "QRCode_Objective-C";
 			sourceTree = "<group>";
 		};
+		3E5E374F270C288200672515 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E5E3750270C288200672515 /* WebKit.framework */,
+				586DF01D9BFE805EDDA0ACA2 /* Pods_QRCode_Objective_C.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		76BA6ED5B69E698616D38BB6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ADFFA4DBC2CF4070CD4E529A /* Pods-QRCode_Objective-C.debug.xcconfig */,
+				75A7F1F6A1A376122AE7A17E /* Pods-QRCode_Objective-C.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -83,9 +112,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3E5E374C270C273500672515 /* Build configuration list for PBXNativeTarget "QRCode_Objective-C" */;
 			buildPhases = (
+				55427224CCEEA24893F93F04 /* [CP] Check Pods Manifest.lock */,
 				3E5E372F270C273400672515 /* Sources */,
 				3E5E3730270C273400672515 /* Frameworks */,
 				3E5E3731270C273400672515 /* Resources */,
+				3A94496A60789B8377FFB48B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -141,12 +172,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3A94496A60789B8377FFB48B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QRCode_Objective-C/Pods-QRCode_Objective-C-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QRCode_Objective-C/Pods-QRCode_Objective-C-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QRCode_Objective-C/Pods-QRCode_Objective-C-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55427224CCEEA24893F93F04 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QRCode_Objective-C-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3E5E372F270C273400672515 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E5E373E270C273400672515 /* ViewController.m in Sources */,
+				3E5E373E270C273400672515 /* MainViewController.m in Sources */,
 				3E5E3738270C273400672515 /* AppDelegate.m in Sources */,
 				3E5E3749270C273500672515 /* main.m in Sources */,
 				3E5E373B270C273400672515 /* SceneDelegate.m in Sources */,
@@ -289,6 +362,7 @@
 		};
 		3E5E374D270C273500672515 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADFFA4DBC2CF4070CD4E529A /* Pods-QRCode_Objective-C.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -316,6 +390,7 @@
 		};
 		3E5E374E270C273500672515 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75A7F1F6A1A376122AE7A17E /* Pods-QRCode_Objective-C.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
