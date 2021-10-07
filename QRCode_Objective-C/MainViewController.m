@@ -65,7 +65,7 @@
     NSLog(@"QR 코드 인식 성공!");
     
     // 웹 뷰 띄우기
-    NSURL *webSiteUrl = [NSURL URLWithString:@"http://www.naver.com"];
+    NSURL *webSiteUrl = [NSURL URLWithString:result];
     NSURLRequest *urlRequest = [NSURLRequest requestWithURL:webSiteUrl];
     [_webView loadRequest:urlRequest];
     
